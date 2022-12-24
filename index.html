@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="assets/icon/partner.png" alt="logo" class="logo-img" />
+      <h1 class="logo-title">Parlin</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#jasa">JASA</a></li>
+        <li><a href="mailto:parlin.stg@gmail.com">KONTAK</a></li>
+      </ul>
+    </nav>
+    <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+  </header>
+  <div class="container">
+    <div class="intro">
+      <p class="title">Hello, Parlin Kiyojords Here!</p>
+      <p class="description">Children of GOD who stuck on earth</p>
+      <img src="assets/foto/profilepic2.png" alt="parlin foto 1" class="img-foto">
+    </div>
+  </div>
+  <div class="parallax">
+    <div class="tentang">
+      <p class="title">Saya adalah Programmer</p>
+      <p class="description">Ngoding aja dulu jagonya belakangan</p>
+      <div class="mt-10">
+        <button class="btn-cta" onclick="redirWhatsapp()">Mari Kerjasama</button>
+      </div>
+    </div>
+    <div class="container">
+        <div class="card" id="jasa">
+          <div class="card-item">
+            <img src="assets/icon/24-hours.png" alt="icon1" class="icon"/>
+            <p class="card-title">Pelayanan NonStop</p>
+            <p class="card-description">Service 24 jam nonstop ketika anda membutuhkan bantuan</p>
+          </div>
+          <div class="card-item">
+            <img src="assets/icon/hot-deal.png" alt="icon2" class="icon"/>
+            <p class="card-title">Jasa Paling Murah</p>
+            <p class="card-description">Biaya jasa yang saya berikan pasti murah dan terjamin</p>
+          </div>
+          <div class="card-item">
+            <img src="assets/icon/rating.png" alt="icon3" class="icon"/>
+            <p class="card-title">789 Review</p>
+            <p class="card-description">Client sangat senang bekerjasama dengan saya</p>
+          </div>                  
+        </div>
+    </div>
+  </div>
+  <footer>
+    <p class="title">&copy; Parlin Kiyojords Website 2022</p>
+  </footer>
+
+  <script>
+    function redirInstagram() {
+      window.location.href = "https://www.instagram.com/parlin_kiyojords"
+    }
+
+    function redirWhatsapp() {
+      window.location.href = "https://wa.me/+6282310001982?text=Hello,i%20got%20your%20info%20from%20website"
+    }
+  </script>
+</body>
+</html>
